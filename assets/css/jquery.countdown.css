@@ -1,0 +1,167 @@
+.item-sale {
+    display: flex;
+    align-items: center;
+}
+
+.count3m.countdownHolder {
+    display: inline-block;
+    color: #cc0000;
+    background: url(../images/sl.png) no-repeat left center;
+    padding-left: 25px;
+    vertical-align: -2px;
+}
+
+.count3m .position {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    height: 20px;
+    width: 18px;
+    line-height: 20px;
+}
+
+.count3m .digit {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+}
+
+.count3m .cham {
+    vertical-align: 6px;
+}
+
+.count3m .countDays {
+    /* display:none !important;*/
+}
+
+.count3m .countDiv0 {
+    /* display:none !important;*/
+}
+
+.count3m .countHours {}
+
+.count3m .countDiv1 {}
+
+.count3m .countMinutes {}
+
+.count3m .countDiv2 {}
+
+.count3m .countSeconds {}
+
+.count3m .countDays,
+.count3m .countHours,
+.count3m .countMinutes,
+.count3m .countSeconds {
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: Montserrat-Bold;
+    color: #a10011;
+    font-size: 26px;
+    margin: 0px 5px;
+}
+
+.count3m .note {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.count3m .note span {
+    width: 45px;
+    display: inline-block;
+    margin-right: 5px;
+    text-align: center;
+}
+
+
+/*---------mega------------*/
+
+.countmega .countdownHolder {
+    margin: 0 auto;
+    text-align: center;
+    font-family: "RobotoBold";
+    position: relative;
+    display: inline-block;
+    margin-right: 5px;
+    color: #cc0000;
+    width: 100%;
+    float: left;
+    top: 0px;
+    margin: 0px 5px;
+}
+
+.countmega .position {
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    height: 25px;
+    color: #000;
+    line-height: 12px;
+}
+
+.countmega .digit {
+    display: block;
+    height: 25px;
+    line-height: 27px;
+    font-size: 18px;
+    z-index: 1;
+    text-align: center;
+}
+
+.countmega .countDays {
+    /* display:none !important;*/
+}
+
+.countmega .countDiv0 {
+    /* display:none !important;*/
+}
+
+.countmega .countHours {}
+
+.countmega .countDiv1 {}
+
+.countmega .countMinutes {}
+
+.countmega .countDiv2 {}
+
+.countmega .countSeconds {}
+
+.countmega .countDays,
+.countmega .countHours,
+.countmega .countMinutes,
+.countmega .countSeconds {
+    text-align: center;
+    padding: 3px;
+    width: 20%;
+    margin-right: 5%;
+    background: #fff;
+    border-radius: 5px;
+    float: left;
+    display: inline-block;
+    font-family: "RobotoBold";
+}
+
+.countmega .cham {
+    display: none;
+}
+
+.mothuong_tiep .note {
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mothuong_tiep .note span {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    padding-right: 5px;
+}
